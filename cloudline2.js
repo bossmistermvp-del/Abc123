@@ -1,6 +1,6 @@
 var cloudLines = [
-  { y: 60, chance: 0.000001, temp: 150 },  // верхняя линия
-  { y: 100, chance: 0.001, temp: 120 }      // нижняя линия
+  { y: 70, chance: 0.001, temp: 150 },  // верхняя линия
+  { y: 100, chance: 0.1, temp: 120 }      // нижняя линия
 ];
 var oldSteamTick = elements.steam.tick;
 elements.steam.tick = function (pixel) {
