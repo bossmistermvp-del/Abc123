@@ -1,6 +1,6 @@
-var cloudTop = 100;       // верх полосы (0 вверху экрана)
-var cloudBottom = 60;    // низ полосы (127 внизу)
-var cloudChance = 0.001;  // шанс за тик, внутри полосы
+var cloudTop = 127;       // верх полосы (0 вверху экрана)
+var cloudBottom = 72;    // низ полосы (127 внизу)
+var cloudChance = 0.01;  // шанс за тик, внутри полосы
 var oldSteamTick = elements.steam.tick;
 elements.steam.tick = function (pixel) {
   if (oldSteamTick) oldSteamTick(pixel);
