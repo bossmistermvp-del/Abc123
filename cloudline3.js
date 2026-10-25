@@ -7,6 +7,6 @@ elements.steam.tick = function (pixel) {
   if (pixel.del || pixel.element !== "steam") return;
   if (pixel.y >= cloudTop && pixel.y <= cloudBottom && Math.random() < cloudChance) {
     changePixel(pixel, "cloud");
-    pixel.temp = 30;
+    pixel.temp = 80;
   }
 };
